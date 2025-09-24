@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:0;color:#111}
+    header{background:#0f172a;color:#fff;padding:40px 20px;text-align:center}
+    .container{max-width:900px;margin:28px auto;padding:0 16px}
+    .card{border:1px solid #e6e6e6;padding:18px;margin-bottom:16px;border-radius:8px}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    a{color:#0b6cff;text-decoration:none}
+    footer{text-align:center;padding:24px 0;color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin:0">Mukesh Sharma</h1>
+    <p style="margin:6px 0 0">Parttime dev • Automation QA • Portfolio</p>
+    <p style="margin:8px 0 0">
+      <a href="https://github.com/msoriginal" target="_blank">GitHub</a> ·
+      <a href="mailto:smukesh257@gmail.com">Email</a>
+    </p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>Short intro — who you are, what you build, and what you want to do next.</p>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div>
+          <h3>Personal Cloud Storage</h3>
+          <p>One-liner. <a href="https://github.com/msoriginal/msCloudDrive" target="_blank">Code</a> · <a href="#">Demo</a></p>
+        </div>
+        <div>
+          <h3>Playeright Automation</h3>
+          <p>One-liner. <a href="https://github.com/msoriginal/SalesforceProject" target="_blank">Code</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:smukesh257@gmail.com">smukesh257@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>© <span id="y"></span> Mukesh Sharma</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
