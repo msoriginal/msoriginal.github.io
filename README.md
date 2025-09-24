@@ -1,2 +1,0 @@
-# msoriginal.github.io
-Welcome
